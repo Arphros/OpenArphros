@@ -17,8 +17,9 @@ As a special exception to the terms of the GNU General Public License v3 (the "L
 
 Conditions:
 
-1. This exception applies exclusively to the Arphros project and does not affect the licensing terms of any other project based on OpenArphros.
-2. The source code of OpenArphros must continue to be made available under the terms of the GNU GPL v3.
-3. Any modifications or additions made to OpenArphros within the Arphros project are not required to be released under the GNU GPL v3, but such modifications may not restrict the availability or use of OpenArphros as an open-source project.
-4. This exception does not apply to any third-party contributors to OpenArphros unless explicitly agreed upon in writing by the contributor.
-Disclaimer: The inclusion of this exception is made specifically for the Arphros project and must not be interpreted as a modification of the GPL for general use.
+1. This exception applies exclusively to the **Arphros** project and does not affect the licensing terms of any other project based on **OpenArphros**.
+2. The source code of **OpenArphros** must continue to be made available under the terms of the GNU GPL v3.
+3. Any modifications or additions made to **OpenArphros** within the **Arphros** project are not required to be released under the GNU GPL v3, but such modifications may not restrict the availability or use of **OpenArphros** as an open-source project.
+4. This exception does not apply to any third-party contributors to **OpenArphros** unless explicitly agreed upon in writing by the contributor.
+ 
+**Disclaimer:** The inclusion of this exception is made specifically for the **Arphros** project and must not be interpreted as a modification of the GPL for general use.
