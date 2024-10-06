@@ -2,34 +2,24 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags:
-  - Obstacle-Wall
-  - Obstacle-Water
-  - Obstacle-Float
-  - Trigger
-  - Light
-  - Sprite
-  - Empty
-  - Turn1
-  - Turn2
-  - StartPosition
+  serializedVersion: 3
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
-  - PostProcessing
-  - Player
-  - Trigger
-  - Sprite
+  - Tail
   - PassThrough
-  - FloatObstacle
-  - Menu
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -51,3 +41,5 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  m_RenderingLayers:
+  - Default
