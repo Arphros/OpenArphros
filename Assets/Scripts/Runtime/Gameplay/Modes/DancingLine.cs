@@ -4,16 +4,43 @@ namespace Arphros.Gameplay
 {
     public class DancingLine : Gamemode
     {
-        public float speed = 12;
+        [Header("Properties")]
+        public Vector3 left;
+        public Vector3 right = new Vector3(0, 90, 0);
+        public TailType tailType = TailType.Overlap;
+        public bool funkyTail;
 
-        public override bool IsKeyPressed()
+        private int loopCount = 0;
+
+        public override void OnInitialization()
         {
-            return base.IsKeyPressed();
+            base.OnInitialization();
         }
 
         public override void OnUpdate()
         {
-            base.OnUpdate();
+
+        }
+
+        public override bool OnKeyPressed()
+        {
+            return false;
+        }
+
+        public enum OverType
+        {
+            Win,
+            DieCollide,
+            DieWater,
+            DieFloating,
+            None
+        }
+
+        public enum TailType
+        {
+            Overlap,
+            Separate,
+            None
         }
     }
 }

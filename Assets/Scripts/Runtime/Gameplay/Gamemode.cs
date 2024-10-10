@@ -10,9 +10,17 @@ namespace Arphros.Gameplay
         /// Indicates when the player has a keypress registered!
         /// </summary>
         /// <returns>Returns true if handled</returns>
-        public virtual bool IsKeyPressed()
+        public virtual bool OnKeyPressed()
         {
             return false;
+        }
+
+        /// <summary>
+        /// Called when the gamemode is initialized
+        /// </summary>
+        public virtual void OnInitialization()
+        {
+
         }
 
         /// <summary>
